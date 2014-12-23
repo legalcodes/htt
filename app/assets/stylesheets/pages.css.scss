@@ -2,9 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
-
-
 @media (min-width: 768px){
 	.navbar-nav{
 	    margin: 0 auto;
@@ -62,6 +59,8 @@
 	font-size: 20px;
 	line-height: 20px;
 	position: relative; //necessary for partial underline effect
+	//color: #988c73;
+	color: #77643a;
 
 }
 
@@ -118,6 +117,12 @@
 }
 
 .glyphs {
-	font-size: 45px;
+	font-size: 30px;
 	text-align: center;
+	display: flex;
+  justify-content: space-between;
+  color: #a29881;
+	@media (max-width: 700px){
+		font-size: 20px;
+	}
 }
