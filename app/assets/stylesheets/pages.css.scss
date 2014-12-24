@@ -45,8 +45,15 @@
   line-height: 50px;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
-  @media (max-width: 500px){
+	@media (max-width: 880px){
   	line-height: 20px;
+  	font-size: 50px !important;
+  	transform: translateY(-480%);
+  	-webkit-transform: translateY(-80%);
+  	}  
+
+  @media (max-width: 700px){
+  	line-height: 60px;
   	font-size: 33px !important;
   	transform: translateY(-480%);
   	-webkit-transform: translateY(-80%);
@@ -62,6 +69,10 @@
 	line-height: 55px;
 	letter-spacing: 1px;
 	position: relative;
+		@media (max-width: 700px){
+		font-size: 23px !important;
+		color: black;
+		}
 }
 
 
@@ -122,6 +133,12 @@
 	color: white;
 	text-align: center;
   background-repeat: no-repeat;
+  @media screen and (max-width: 900px) {
+    background-image: url('pipe2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1500px;
+  }
 }
 
 .slide2 {
