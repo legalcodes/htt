@@ -181,7 +181,15 @@
 	color: #a29881;
 }
 
+a.FBglyphLinks:visited,
+a.YTglyphLinks:visited, 
+a.TWglyphLinks:visited {
+	color: #a29881;
+}
 
+a.FBglyphLinks:hover {
+	color: #3b5998;
+}
 
 a.YTglyphLinks:hover {
 	color: #990000;
@@ -190,3 +198,5 @@ a.YTglyphLinks:hover {
 a.TWglyphLinks:hover {
 	color: #55acee;
 }
+
+
